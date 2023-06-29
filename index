@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mujeke Tafadzwa Muchazviona - CV</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <header class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <h1>Mujeke Tafadzwa Muchazviona</h1>
+        </div>
+        <div class="col-6 text-right">
+        <a href ="default.aspp" a>
+          <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/66199596_690694171401502_6717182057551757312_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=5lyke6PndvMAX8NLMYf&_nc_ht=scontent-cpt1-1.xx&oh=00_AfCG7UEo3DmxZMe57eedv4hESgQyUHHqhv9nqaE5QSb1pQ&oe=64C223E6" alt="Profile Picture" class="img-fluid rounded-circle profile-img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-4">
+    <section id="bio">
+      <h2>Bio</h2>
+      <p>Hello, I'm Mujeke Tafadzwa Muchazviona. I am a qualified barista, professional photographer, and aspiring software engineer. I was born on August 22, 1999, in the small town of Kwekwe, Zimbabwe, and I currently reside in Cape Town. I have a passion for exploring different creative fields and continuously learning new technologies.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Details</h2>
+      <p>Name: Mujeke Tafadzwa Muchazviona</p>
+      <p>Contact Number:+27 (67) 099 8503</p>
+      <p>Email: mujekemuchazviona@gmail.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/mujeke-muchazviona-aaa34a99">Mujeke Muchazviona's LinkedIn Profile</a></p>
+
+    </section>
+
+    <section id="skills">
+      <h2>Skills and Competencies</h2>
+      <ul>
+        <li>Barista Skills</li>
+        <li>Photography Skills</li>
+        <li>HTML and CSS</li>
+        <li>Front-end Development with React</li>
+        <li>Database Management (MySQL, MongoDB)</li>
+        <li>Version Control with Git</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Software Engineering, HyperionDev (Expected Graduation: JUly 2023)</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>
+          <h3>Senior Barista, PowerBar</h3>
+          <p>Date: 01/12/2023 - Present</p>
+        </li>
+        <li>
+          <h3>Photographer, Freelance</h3>
+          <p>Date:2014 - Present</p>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2023 Mujeke Tafadzwa Muchazviona</p>
+  </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+</body>
+</html>
