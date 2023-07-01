@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mujeke Tafadzwa Muchazviona - CV</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"> <!-- Slick CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"> <!-- Slick Theme CSS -->
   <link rel="stylesheet" href="styles.css"> <!-- Custom CSS -->
 </head>
 <body>
@@ -15,8 +17,8 @@
           <h1>Mujeke Tafadzwa Muchazviona</h1>
         </div>
         <div class="col-6 text-right">
-        <a href ="default.aspp" a>
-          <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/66199596_690694171401502_6717182057551757312_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=5lyke6PndvMAX8NLMYf&_nc_ht=scontent-cpt1-1.xx&oh=00_AfCG7UEo3DmxZMe57eedv4hESgQyUHHqhv9nqaE5QSb1pQ&oe=64C223E6" alt="Profile Picture" class="img-fluid rounded-circle profile-img">
+          <a href="default.aspp">
+            <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/66199596_690694171401502_6717182057551757312_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=5lyke6PndvMAX8NLMYf&_nc_ht=scontent-cpt1-1.xx&oh=00_AfCG7UEo3DmxZMe57eedv4hESgQyUHHqhv9nqaE5QSb1pQ&oe=64C223E6" alt="Profile Picture" class="img-fluid rounded-circle profile-img">
           </a>
         </div>
       </div>
@@ -32,10 +34,9 @@
     <section id="contact">
       <h2>Contact Details</h2>
       <p>Name: Mujeke Tafadzwa Muchazviona</p>
-      <p>Contact Number:+27 (67) 099 8503</p>
+      <p>Contact Number: +27 (67) 099 8503</p>
       <p>Email: mujekemuchazviona@gmail.com</p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/mujeke-muchazviona-aaa34a99">Mujeke Muchazviona's LinkedIn Profile</a></p>
-
     </section>
 
     <section id="skills">
@@ -53,7 +54,7 @@
     <section id="education">
       <h2>Education</h2>
       <ul>
-        <li>Software Engineering, HyperionDev (Expected Graduation: JUly 2023)</li>
+        <li>Software Engineering, HyperionDev (Expected Graduation: July 2023)</li>
       </ul>
     </section>
 
@@ -66,17 +67,36 @@
         </li>
         <li>
           <h3>Photographer, Freelance</h3>
-          <p>Date:2014 - Present</p>
+          <p>Date: 2014 - Present</p>
         </li>
       </ul>
     </section>
 
+    <section id="photographs">
+      <h2>Photographs</h2>
+      <div class="slick-slider">
+        <div><a href="path_to_image1.jpg"><img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/354239195_718958000235727_3321859241667334209_n.jpg?_nc_cat=100&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=QeD9eXg9lfoAX_YtyXl&_nc_ht=scontent-cpt1-1.xx&oh=00_AfBHW6cx2daoyFtGRGknFupDJuHqmOyI2HnkSUe0_qh6Pw&oe=64A4CDD7" alt="Photograph 1"></a></div>
+        <div><a href="path_to_image2.jpg"><img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/331971232_1292323688291995_7718675504765498802_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=Q77yIDYjW74AX8pqGwt&_nc_ht=scontent-cpt1-1.xx&oh=00_AfAlH6F7aRt41X_MwtBxV_djCoFPANEax5O5EWmOWCCT_g&oe=64A50DB7" alt="Photograph 2"></a></div>
+        <div><a href="path_to_image3.jpg"><img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/329796270_1127339731290442_3757929655138081346_n.jpg?_nc_cat=104&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=97gjqVtAZe4AX_SOgod&_nc_ht=scontent-cpt1-1.xx&oh=00_AfCka9oMq3FjLLt72O3uv2t1rlnAZHktWdE2KPHREuS7jw&oe=64A3CC8B" alt="Photograph 3"></a></div>
+      </div>
+    </section>
   </main>
 
   <footer class="bg-dark text-white text-center py-4">
     <p>&copy; 2023 Mujeke Tafadzwa Muchazviona</p>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> <!-- Slick JS -->
+  <script>
+    $(document).ready(function() {
+      $('.slick-slider').slick({
+        dots: true, // Show navigation dots
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 3000, // Set autoplay speed (in milliseconds)
+      });
+    });
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
 </body>
 </html>
